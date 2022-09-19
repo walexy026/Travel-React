@@ -1,0 +1,90 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  /* Backgound image for the form*/
+  .formBg img {
+    position: absolute;
+    right: 0;
+    top: -65px;
+    border-bottom-left-radius: 100px;
+    z-index: -1;
+  }
+  /* form text */
+  form h3 {
+    text-align: center;
+    background: linear-gradient(135deg, #ff0080 0%, #7928ca 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.7rem;
+  }
+  form p {
+    color: #67748e;
+    max-width: 463px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 1rem;
+  }
+  /* input details */
+  .flName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+  label {
+    color: #252f40;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 1rem;
+  }
+  input {
+    background: #ffffff;
+    border: 1px solid #d2d6da;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  input[type="submit"] {
+    background: linear-gradient(135deg, #ff0080 0%, #7928ca 100%);
+    color: #ffffff;
+    font-size: 10px;
+    box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11),
+      0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    /* transform: translateX(170px); */
+    cursor: pointer;
+  }
+  textarea {
+    background: #ffffff;
+    border: 1px solid #d2d6da;
+    border-radius: 8px;
+    color: #495057;
+    opacity: 0.5;
+    font-size: 13.6px;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  
+  form {
+    background: rgba(255, 255, 255, 0.8);
+    mix-blend-mode: normal;
+    box-shadow: 0px 20px 26px rgba(0, 0, 0, 0.05), 0px 8px 9px rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(30px);
+    border-radius: 16px;
+    padding: 2rem;
+    position: absolute;
+    left: 15%;
+    top: 100px;
+  }
+  /* display error messsage */
+  span{
+      color: red;
+      font-size: 10px;
+  }
+  

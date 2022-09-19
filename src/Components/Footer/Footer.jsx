@@ -1,5 +1,12 @@
 import React from 'react'
 import "./Footer.css"
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link,
+//   useParams
+// } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,7 +33,8 @@ const Footer = () => {
       </div>
       <div className="links">
         <ul>
-          <li> <a href="./ContactUs/contactUs.html">Contact</a> </li>
+          {/* <link to ="./[ages/ContactUs"> Contact </link> */}
+          <li>  <a href="./ContactUs/contactUs.html">Contact</a> </li>
            <li> <a href="#">Help/FAQ</a></li>
            <li> <a href="#">Press</a></li>
            <li> <a href="#">Affilates</a></li>
