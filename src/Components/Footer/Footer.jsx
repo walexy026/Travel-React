@@ -1,5 +1,13 @@
 import React from 'react'
 import "./Footer.css"
+import facebook from  '../../Assets/facebook.svg';
+import instagram from  '../../Assets/instagram.svg';
+import twitter from  '../../Assets/twitter.svg';
+import GooglePlay from  '../../Assets/googlePlay.svg';
+import applePlayStore from  '../../Assets/applePlayStore.svg';
+// import facebook from  '../../Assets/facebook.svg';
+// import facebook from  '../../Assets/facebook.svg';
+
 // import {
 //   BrowserRouter as Router,
 //   Switch,
@@ -52,14 +60,14 @@ const Footer = () => {
       </div>
       <div classNmae="links">
           <div className="socials">
-              <a href="/https://facebook.com"><img src="./Assets/facebook.svg" alt="facebook" /></a>
-               <a href="https://instagram.com"><img className="instagram" src="./Assets/instagram.svg" alt="instagram" /></a>
-              <a href="https://twitter.com"><img src="./Assets/twitter.svg" alt="twitter" /></a>
+              <a href="/https://facebook.com"><img src={facebook} alt="facebook" /></a>
+               <a href="https://instagram.com"><img className="instagram" src={instagram} alt="instagram" /></a>
+              <a href="https://twitter.com"><img src={twitter} alt="twitter" /></a>
             </div>
         <div><p>Discover our app</p></div>
         <div className="playStore">
-          <a href="https://googleplay.com"><img src="./Assets/GooglePlay.svg" alt="GooglePlay" /></a>
-          <a href="https://apps.apple.com"><img src="./Assets/applePlayStore.svg" alt="applePlayStore" /></a>
+          <a href="https://googleplay.com"><img src={GooglePlay} alt="GooglePlay" /></a>
+          <a href="https://apps.apple.com"><img src={applePlayStore} alt="applePlayStore" /></a>
         </div>
     </div>
 </div>

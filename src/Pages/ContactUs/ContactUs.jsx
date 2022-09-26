@@ -3,7 +3,7 @@ import "./ContactUs.css"
 const ContactUs = () => {
   return (
     <div>
-         <div classNameName="formBg"><img src="./assets/formBg.svg" alt="" /></div>
+         <div className="formBg"><img src="./assets/formBg.svg" alt="bg" /></div>
     <form action="" target="_self" id="form">
       <h3>Contact us</h3>
       <p>

@@ -239,9 +239,9 @@ const Main = () => {
           <h2>What people say
             about Us.</h2>
              {/* ONCLICK JAVASCRIPT FUNCTION FOR THE CAROUSEL  */}
-            <div className="carouselDot" onclick="currentSlide(1)"> </div>
-            <div className= "carouselDot" onclick="currentSlide(2)"></div>
-            <div className="carouselDot" onclick="currentSlide(3)"></div>
+            <div className="carouselDot" onClick="currentSlide(1)"> </div>
+            <div className= "carouselDot" onClick="currentSlide(2)"></div>
+            <div className="carouselDot" onClick="currentSlide(3)"></div>
         </div>
         <div>
           <div className="carouselTestimony carouselTestimony__visible">
@@ -263,9 +263,9 @@ const Main = () => {
             <h6>Lahore, Pakistan</h6>
           </div>
           <div className="arrow">
-            <img className="arrowUp" onclick="plusSlides(-1)" src={arrowUp} alt="arrowUp"/>
+            <img className="arrowUp" onClick="plusSlides(-1)" src={arrowUp} alt="arrowUp"/>
             <img className="
-            arrowDown" onclick="plusSlides(1)" src={arrowDown} alt="arrowDown"/>
+            arrowDown" onClick="plusSlides(1)" src={arrowDown} alt="arrowDown"/>
           </div>
         </div>
       </section>

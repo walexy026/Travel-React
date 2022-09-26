@@ -2,23 +2,23 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Main from "./Pages/Main/Main";
 // import ContactUs from "./Pages/ContactUs/ContactUs";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
+      <Router>
     <div className="App">
       <Header />
       <Main />
       <Footer />
       {/* <ContactUs/> */}
-      {/* <BrowserRouter>
-      <Routes />
-      <Route path="/" element={<Main />} />
-      <Route path="/contactus" element={<ContactUs />} />
-      <Routes />
-      </BrowserRouter> */}
+      {/* <Route /> */}
+      {/* <Route path="/" pages={<Main />} /> */}
+      {/* <Route path="/contactus" pages={<ContactUs />} /> */}
+      {/* <Routes /> */}
 
     </div>
+      </Router>
   );
 }
 
