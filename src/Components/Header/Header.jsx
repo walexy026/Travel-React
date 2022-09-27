@@ -8,8 +8,6 @@ const Header = () => {
       <header>
       <div>
         <a href="#"><img src={logo} alt="JaddoLogo" /></a>
-        {/* <img src="JaddoLogo.svg" alt="" /> */}
-
       </div>
       <nav>
         <ul className='navLinks'>
@@ -45,8 +43,6 @@ const Header = () => {
         <div className="bar3"></div>
       </div>
     </header>
-
-
         </div>
   )
 }

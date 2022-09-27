@@ -1,4 +1,6 @@
 import "./Main.css";
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
 import heroBg from  '../../Assets/heroBg.svg';
 import playButton from  '../../Assets/PlayButton.svg';
 import travellerGirl from  '../../Assets/travellerGirlPlane.svg';
@@ -38,6 +40,7 @@ import mail from  '../../Assets/mail.svg';
 const Main = () => {
   return (
     <div>
+      <Header/>
         <main>
       {/* HEROSECTION  */}
       <section className="heroSection">
@@ -46,7 +49,7 @@ const Main = () => {
             <img src={heroBg} alt="HeroBackGround" />
           </div>
           <h3>Best Destinations around the world</h3>
-          <h1>Travel, <span>enjoy</span> and live a new and full life</h1>
+          <h1>Travel, <b>enjoy</b> and live a new and full life</h1>
           <p>
             Built Wicket longer admire do barton vanity itself do in it.
             Preferred to sportsmen it engrossed listening. Park gate sell they
@@ -200,7 +203,7 @@ const Main = () => {
         </div>
         <div className="blurWrapper">
           <div className="tripPackage">
-            <img src={tripToGreece.svg} alt="tripToGreece" />
+            <img src={tripToGreece} alt="tripToGreece" />
             <h6>Trip To Greece</h6>
             <p>14-29 June| by Robbin joseph</p>
             <span>
@@ -305,7 +308,7 @@ const Main = () => {
         </div>
       </section>
     </main> 
-      
+      <Footer/>
     </div>
   )
 }

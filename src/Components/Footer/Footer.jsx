@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import {Link} from 'react-router-dom';
 import facebook from  '../../Assets/facebook.svg';
 import instagram from  '../../Assets/instagram.svg';
 import twitter from  '../../Assets/twitter.svg';
@@ -23,7 +24,9 @@ const Footer = () => {
         <div className="footerLinks">
           <div className="links">
             <ul>
-              <li> <a className="footerLogo" href="./index.html">Jadoo.</a>
+       {/* <li> <Link to ='./ContactUs'><a href=''> ContactUs</a></Link></li> */}
+
+              <li> <Link to='../'><a className="footerLogo" href="">Jadoo.</a></Link>
                 </li>
               <li><p> Book your trip in minute, get full
                 Control for much longer.</p>
@@ -41,8 +44,9 @@ const Footer = () => {
       </div>
       <div className="links">
         <ul>
-          {/* <link to ="./[ages/ContactUs"> Contact </link> */}
-          <li>  <a href="./ContactUs/contactUs.html">Contact</a> </li>
+       <li> <Link to ='./ContactUs'><a href=''> ContactUs</a></Link></li>
+         {/* <li> <link to ="./pages/ContactUs"> Contact /></li> */}
+          {/* <li>  <a href="./ContactUs/contactUs">Contact</a> </li> */}
            <li> <a href="#">Help/FAQ</a></li>
            <li> <a href="#">Press</a></li>
            <li> <a href="#">Affilates</a></li>
@@ -58,7 +62,7 @@ const Footer = () => {
        
     </ul>
       </div>
-      <div classNmae="links">
+      <div className="links">
           <div className="socials">
               <a href="/https://facebook.com"><img src={facebook} alt="facebook" /></a>
                <a href="https://instagram.com"><img className="instagram" src={instagram} alt="instagram" /></a>
@@ -72,8 +76,7 @@ const Footer = () => {
     </div>
 </div>
 
-<span>All rights reserved@jadoo.co</span>
-{/* </footer> */}
+<span className='footerSpan'>All rights reserved@jadoo.co</span>
     </div>
   )
 }
